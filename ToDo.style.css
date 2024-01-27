@@ -21,6 +21,7 @@ html, body {
     background-color: #222;
 }
 
+/* nav section */
 .brand {
     display: flex;
     flex-direction: row;
@@ -83,22 +84,45 @@ html, body {
     color: #222 !important;
 }
 
+/* nav end section */
+
+
+
+/* card section */
 .content--card {
     display: flex;
     text-align: center;
     justify-content: center;
     background-color: #ddd;
-    height: 500px;
     padding: 50px;
 }
 
-.ToDo--card {
-    width: 500px;
+.contain--ToDo {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 200px;
+}
+
+.contain--ToDo>h1>span {
+    color: crimson;
+}
+
+.ToDo--card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
     background-color: white;
     border-radius: 10px;
 }
 
 .ToDo--card p {
     background-color: whitesmoke;
+    font-size: 20px;
+    text-transform: capitalize;
 }
+
+/* card end section */
