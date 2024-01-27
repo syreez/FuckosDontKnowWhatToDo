@@ -69,9 +69,7 @@ html, body {
 }
 
 .navigations>li>img:hover {
-    width: 55px;
-    height: 55px;
-    border-radius: 55px;
+    border-radius: 1px;
     transition: all .3s ease-in-out;
 }
 
@@ -99,10 +97,6 @@ html, body {
     text-align: center;
     background-color: white;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 .ToDo--card p {
